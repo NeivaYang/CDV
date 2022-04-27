@@ -21,6 +21,12 @@ class DashboardController extends Controller
         $oportunidades_data = 0;
         $dashboard_data = 0;
 
+        if (Auth::check()) {
+            return view('sistema.dashboard', compact('dashboard_data','oportunidades_data'));
+        } else {
+            return redirect()->route('login');
+        }
+
         /*
         $proposta_produto = PropostaProduto::count();
         $proposta_servico = PropostaServico::count();
@@ -30,7 +36,7 @@ class DashboardController extends Controller
         $negociacao_contratado = Negociacao::where('negociacao.situacao','contratado')->count();
         $negociacao_aberto = Negociacao::where('negociacao.situacao','aberto')->count();
 
-        $totais = ContratoVenda::select(DB::raw('sum(cdv_db.proposta_servico.area_abrangida) as total_area'), 
+        $totais = ContratoVenda::select(DB::raw('sum(cdv_db.proposta_servico.area_abrangida) as total_area'),
                                         DB::raw('sum(cdv_db.proposta_servico.valor_final) as total_valor'))
                                     ->join('negociacao','negociacao.id','=','contrato_venda.id_negociacao')
                                     ->join('proposta_servico','proposta_servico.id','=','contrato_venda.id_proposta')
@@ -44,7 +50,7 @@ class DashboardController extends Controller
         }
 
         $media_proposta_negociacao = (($proposta_produto+$proposta_servico) > 0 && $negociacao > 0) ? number_format((($proposta_produto+$proposta_servico)/$negociacao),2,",","") : 0;
-        
+
         $dashboard_data = array ('total_proposta_produto' => $proposta_produto,
                                  'total_proposta_servico' => $proposta_servico,
                                  'total_contrato' => $contratos,
@@ -58,9 +64,8 @@ class DashboardController extends Controller
         $chart_negociacoes[3] = ['Negociação Encerrada',$negociacao_encerrado];
         $oportunidades_data = json_encode($chart_negociacoes);
         */
-       return view('sistema.dashboard', compact('dashboard_data','oportunidades_data'));
     }
 
-    
+
 
 }
