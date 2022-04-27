@@ -1,0 +1,110 @@
+.table {
+    font-size: 1.125rem;
+}
+
+html{
+    overflow: auto;
+    font-size: 12;
+}
+
+.bg-card-proposta {
+    background-color: #1782B6 !important;
+}
+
+#tbHead {
+    background-color: #76aaca !important;
+}
+
+tr .td-acoes a {
+    cursor: pointer;
+    width: 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 5px;
+    font-size: 19px;
+    /*color: #91AD74;*/
+    /*opacity: 0.30;*/
+    filter: alpha(opacity=30);
+    transition: 0.3s;
+}
+
+tr .td-acoes a {
+    color: #76aaca !important;
+}
+
+tr .td-acoes a:hover {
+    color: #3b7097 !important;
+}
+
+.btn-confirmacao {
+    color: #fff !important;
+    background-color: #004B8D !important;
+    border-color: #004B8D !important;
+}
+
+.btn-confirmacao:hover {
+    opacity: 0.75;
+}
+
+.tooltip-inner {
+    background-color: #577284 !important;
+    color: #ffffff ;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1.1rem;
+}
+
+.bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before {
+    border-top-color: #577284 !important;
+  }
+  
+  .bs-tooltip-right .arrow::before, .bs-tooltip-auto[x-placement^="right"] .arrow::before {
+    border-right-color: #577284 !important;
+  }
+  
+  
+  .bs-tooltip-bottom .arrow::before, .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+    border-bottom-color: #577284 !important;
+  }
+  
+  
+  .bs-tooltip-left .arrow::before, .bs-tooltip-auto[x-placement^="left"] .arrow::before {
+    border-left-color: #577284 !important;
+  }
+
+
+  .btn-outline-confirmacao {
+    color: #004B8D !important;
+    border-color: #004B8D !important;
+  }
+  
+  .btn-outline-confirmacao:hover {
+    color: #ffffff !important;
+    background-color: #004B8D !important;
+    border-color: #004B8D !important;
+  }
+  
+  .btn-outline-confirmacao:focus,
+  .btn-outline-confirmacao.focus {
+    box-shadow: 0 0 0 0.2rem rgba(108, 178, 235, 0.5);
+  }
+  
+  .btn-outline-confirmacao.disabled,
+  .btn-outline-confirmacao:disabled {
+    color: #004B8D;
+    background-color: transparent;
+  }
+  
+  .btn-outline-confirmacao:not(:disabled):not(.disabled):active,
+  .btn-outline-confirmacao:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-confirmacao.dropdown-toggle {
+    color: #ffffff;
+    background-color: #004B8D;
+    border-color: #004B8D;
+  }
+  
+  .btn-outline-confirmacao:not(:disabled):not(.disabled):active:focus,
+  .btn-outline-confirmacao:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-confirmacao.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(108, 178, 235, 0.5);
+  }
+  

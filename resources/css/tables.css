@@ -1,0 +1,39 @@
+table thead {
+    background-color: #3b7097;
+    color: white;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #e1e9f1 
+}
+
+.table-striped>thead>tr>th{
+    text-align: center;
+}
+
+.delete{
+    font-size: 25px;
+    color: #76aaca !important;
+    text-align: center;
+    vertical-align: middle;
+    width: 0%;
+}
+
+.table-striped>tbody>tr>td>i:hover{
+    color: #3b7097 !important;
+}
+
+#tabela_itens_gerenciar>tbody{
+    background-color:rgba(255, 255, 255, 0.907);
+}
+
+#tabela_itens_gerenciar>thead>tr>th{
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tabela_itens_gerenciar>tbody>tr>td{
+    text-align: center;
+    vertical-align: middle;
+}
