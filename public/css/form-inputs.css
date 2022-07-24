@@ -1,0 +1,92 @@
+input, select, textarea {
+    outline: none;
+    appearance: unset !important;
+    -moz-appearance: unset !important;
+    /*-webkit-appearance: unset !important;*/
+    -o-appearance: unset !important;
+    -ms-appearance: unset !important; 
+}
+  
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    appearance: none !important;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    -o-appearance: none !important;
+    -ms-appearance: none !important;
+    margin: 0; 
+}
+  
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -o-box-shadow: none !important;
+    -ms-box-shadow: none !important; 
+}
+  
+input[type=checkbox] {
+    appearance: checkbox !important;
+    -moz-appearance: checkbox !important;
+    -webkit-appearance: checkbox !important;
+    -o-appearance: checkbox !important;
+    -ms-appearance: checkbox !important; 
+}
+  
+input[type=radio] {
+    appearance: radio !important;
+    -moz-appearance: radio !important;
+    -webkit-appearance: radio !important;
+    -o-appearance: radio !important;
+    -ms-appearance: radio !important; 
+}
+
+input[type=number] {
+    -moz-appearance: textfield !important;
+    appearance: none !important;
+    -webkit-appearance: none !important; 
+}
+  
+input:-webkit-autofill {
+    box-shadow: 0 0 0 30px transparent inset;
+    -moz-box-shadow: 0 0 0 30px transparent inset;
+    -webkit-box-shadow: 0 0 0 30px transparent inset;
+    -o-box-shadow: 0 0 0 30px transparent inset;
+    -ms-box-shadow: 0 0 0 30px transparent inset; 
+}
+
+label {
+    margin-bottom: 0px;
+    color: #26475b;
+}
+
+label {
+    cursor: pointer;
+    display: block;
+    -webkit-transition: 125ms color ease-out;
+    transition: 125ms color ease-out;
+}
+
+label:focus-within {
+    color: #4A8DB7;
+    font-weight: 500;
+}
+
+input, select {
+    border-radius: 0 !important;
+    display: block;
+    width: 100%;
+    border: 1px solid #ebebeb !important;
+    padding: 11px 20px;
+    box-sizing: border-box;
+}
+
+input:focus, select:focus {
+    border: 1px solid #4A8DB7 !important; 
+}
+
+.bootstrap-select>.dropdown-toggle {
+    height: 100% !important;
+    font-size: 1.25rem !important;
+    border-radius: 0 !important;
+}

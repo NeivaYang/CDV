@@ -1,0 +1,43 @@
+<?php
+
+return [
+
+    'id' => 'ID',
+    'codigo' => 'Código',
+    'nome' => 'Nombre',
+    'primeiro_nome' => 'Primeiro Nombre',
+    'ultimo_nome' => 'Apellido',
+    'celular' => 'Celular',
+    'email' => 'Email',
+    'senha' => 'Contraseña',
+    'confirmar_senha' => 'Confirmar contraseña',
+    'idioma' => 'Idioma',
+    'funcao' => 'Occupación',
+    'cdc' => 'Centro de Costos',
+    'situacao' => 'situación',
+    'ativo' => 'Activo',
+    'inativo' => 'Inactivo',
+    'codigo_idioma' => 'Código do Idioma',
+    'cadastrar_colaborador' => 'Register Empleado',
+    'editar_colaborador' => 'Edit Empleado',
+    'excluir_colaborador' => '¿Desea eliminar este empleado?',
+    'editar' => 'Edit',
+    'cadastrar' => 'Register',
+    'titulo' => 'Empledos',
+
+    'voltar' => 'atrás',
+    'editar' => 'Editar',
+    'remover' => 'Retirar',
+    'acao' => 'Acción',
+    'buscar' => 'Buscar',
+    'atualizar' => 'Actualizar',
+    'fechar' => 'Cerca', 
+    'informe_senha_alt' => 'Ingrese una contraseña SOLAMENTE si la cambia',
+    'falha_remocao' => 'Solicitud fallida. ¡El usuario no puede ser eliminado si es superior a alguien!',
+    'filtrar' => 'Filtrar',
+    'nao_filtrar' => 'No lo filtres',
+    'opcional' => 'Opcional',
+    'senhasNaoBatem' => 'Las contraseñas ingresadas son diferentes !',
+
+    'erro1' => '¡No se puede quitar! El empleado está vinculado a una oportunidad o un contrato.',
+];

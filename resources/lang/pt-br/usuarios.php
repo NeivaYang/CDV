@@ -1,0 +1,35 @@
+<?php
+return [
+    'titulo' => 'Administradores',
+    'cadastro' => 'Cadastro de Administrador',
+    'edicao' => 'Edição de Administrador',
+    'exclusao' => 'Deseja excluir este administrador?',
+   
+    'id' => 'ID',
+    'codigo' => 'Código',
+    'nome' => 'Nome',
+    'primeiro_nome' => 'Primero Nome',
+    'ultimo_nome' => 'Sobrenome',
+    'telefone' => 'Telefone',
+    'celular' => 'Celular',
+    'idioma' => 'Idioma',
+    'tipo_usuario' => 'Tipo de Usuário',
+    'email' => 'E-mail',
+    'senha' => 'Senha',
+    'senha_atual' => 'Senha Atual',
+    'nova_senha' => 'Nova Senha',
+    'confirmar_nova_senha' => 'Confirmar Nova Senha',
+    'alterar_senha' => 'Alterar Senha',
+    'confirmar_senha' => 'Confirmar Senha',
+    'situacao' => 'Situação',
+    'ativo' => 'Ativo',
+    'inativo' => 'Inativo',
+    'informe_senha_alt' => 'Informe uma senha APENAS se for alterá-la',
+    'falha_remocao' => 'Falha na solicitação. O usuário não pode ser removido se for superior de alguem !',
+
+    'filtrar' => 'Filtrar',
+    'nao_filtrar' => 'Não filtrar',
+    'opcional' => 'Opcional',
+
+    'senhasNaoBatem' => 'As senhas informadas são diferentes !',
+];

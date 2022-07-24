@@ -1,0 +1,35 @@
+<?php
+return [
+    'titulo' => 'Administradores',
+    'cadastro' => 'Registro de Administrador',
+    'edicao' => 'Edición de Administrador',
+    'exclusao' => '¿Desea eliminar este administrador?',
+
+    'id' => 'ID',
+    'codigo' => 'Código',
+    'nome' => 'Nombre',
+    'primeiro_nome' => 'Primeiro Nombre',
+    'ultimo_nome' => 'Apellido',
+    'telefone' => 'Número de teléfono',
+    'celular' => 'Celular',
+    'idioma' => 'Idioma',
+    'tipo_usuario' => 'Tipo de usuario',
+    'email' => 'Email',
+    'senha' => 'Contraseña',
+    'confirmar_senha' => 'Confirmar contraseña',
+    'senha_atual' => 'Contraseña Actual',
+    'nova_senha' => 'Nueva Contraseña',
+    'confirmar_nova_senha' => 'Confirmar Nueva Contraseña',
+    'alterar_senha' => 'Cambiar Contraseña',
+    'situacao' => 'Estado',
+    'ativo' => 'Activo',
+    'inativo' => 'Inactivo',
+    'informe_senha_alt' => 'Ingrese una contraseña SOLAMENTE si la cambia',
+    'falha_remocao' => 'Solicitud fallida. ¡El usuario no puede ser eliminado si es superior a alguien!',
+
+    'filtrar' => 'Filtrar',
+    'nao_filtrar' => 'No lo filtres',
+    'opcional' => 'Opcional',
+
+    'senhasNaoBatem' => 'Las contraseñas ingresadas son diferentes !',
+];

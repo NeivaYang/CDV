@@ -1,0 +1,41 @@
+<?php
+
+return [
+   'alterar_fazenda' => 'Change selected farm',
+   'buscar_fazendas' => 'Search Farms',
+   'nao_selecionar_fazendas' => 'Do not select farm',
+   'alterar' => 'Change',
+   'nenhuma_fazenda_selecionada' => 'No selected farm',
+
+   'permissao_negada' => 'You do not have permission to access this resource.',
+   'sair' => 'Exit',
+   'idioma' => 'Language',
+   'fazenda_selecionada' => 'Selected Farm',
+   'erro_carregar_fazendas' => 'There was a problem loading as farms',
+   'selecionar_fazenda' => 'Select Farm',
+   'profile' => 'User Profile',
+   'salvar' => 'Save',
+   'voltar' => 'Back',
+   'seleciona_item' => 'Select item',
+   'acoes' => 'Actions',
+   'titulo_criar' => 'Register',
+   'titulo_editar' => 'Edit',
+   'titulo_deletar' => 'Delete',
+   'titulo_detalhe' => 'View',
+   'encerrar' => 'Close',
+   'negociar' => 'Start Trading',
+   'criar_proposta' => 'Create Proposal',
+   'proposta' => 'Proposals',
+   'campos_obrigatorios' => 'Mandatory fields',
+   'itensVenda' => 'Sales Items',
+   'tipo_item' => 'Type',
+   'unidade' => 'Unity',
+   'produto' => 'Product',
+   'servico' => 'Service',
+   'gerarPDF' => 'Generate PDF',
+   'propostaPDF' => 'PDF Proposal',
+
+   'gerenciar' => "Manage",
+   'sim' => 'Yes',
+   'nao' => 'No'
+];

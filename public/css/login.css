@@ -1,0 +1,73 @@
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #4A8DB7;
+  background: linear-gradient(to bottom, #4A8DB7, #75BDE0);
+}
+
+html, body {
+  height: 100%;
+}
+.form-signin {
+  width: 100%;
+  max-width: 350px;
+  padding: 15px;
+  margin: auto;
+  color: #182c3a;
+}
+
+.form-signin h1 {
+  color: #4A8DB7;
+}
+
+.form-signin .btn {
+  font-size: 1.25em;
+  border-radius: 0 !important;
+  letter-spacing: .1rem;
+  /* font-weight: bold; */
+  padding: 0.5rem;
+  transition: all 0.2s;
+}
+  
+.btn-signin {
+  color: #fff;
+  background-color: #4a8db7;
+  border-color: #4a8db7;
+}
+  
+.btn-signin:hover {
+  color: #fff;
+  background-color: #75bde0;
+  border-color: #75bde0;
+}
+  
+.btn-signin:focus, .btn-signin.focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+  
+.btn-signin.disabled, .btn-signin:disabled {
+  color: #fff;
+  background-color: #4a8db7;
+  border-color: #4a8db7;
+}
+  
+.btn-signin:not(:disabled):not(.disabled):active, .btn-signin:not(:disabled):not(.disabled).active,
+.show > .btn-signin.dropdown-toggle {
+  color: #fff;
+  background-color: #75bde0;
+  border-color: #4a8db7;
+}
+
+.btn-signin:not(:disabled):not(.disabled):active:focus, .btn-signin:not(:disabled):not(.disabled).active:focus,
+.show > .btn-signin.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
